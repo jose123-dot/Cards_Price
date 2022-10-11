@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  font-family: montserrat;
+  font-weight: 700;
+  background-color: rgb(206, 219, 219);
+}
+.container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* design predeterminado de las  tarjetas */
+.card {
+  display: inline-block;
+  width: 275px;
+  height: 310px;
+  border-radius: 7px;
+  text-align: center;
+  background-color: white;
+}
+
+.card__purple {
+  background-color: rgb(142, 29, 247);
+  color: white;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.item {
+  display: inline-block;
+  width: 200px;
+  border-top: 1px solid rgb(206, 200, 211);
+}
+
+.price {
+  font-size: 30pt;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+.button {
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  background-color: rgb(142, 29, 247);
+}
+
+.button__purple {
+  background-color: white;
+  color: rgb(142, 29, 247);
+}
